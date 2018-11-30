@@ -5,7 +5,7 @@ This repostority is standalone server build mongodb-replSet ,if you build many e
 ##### step:1
 git clone https://github.com/xwqb/docker-mongodb.git && cd docker-mongodb
 ##### step:2
-wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.0.4.tgz \ && 
+wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.0.4.tgz && 
 tar -xzf mongodb-linux-x86_64-4.0.4.tgz && cp -r mongodb-linux-x86_64-4.0.4/bin bin
 ##### step:3
 `./startup.sh` build and start your mongodb-replSet
