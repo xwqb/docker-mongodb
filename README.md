@@ -14,4 +14,4 @@ tar -xzf mongodb-linux-x86_64-4.0.4.tgz && cp -r mongodb-linux-x86_64-4.0.4/bin 
 ## Where are my data?
 In this path `work_spac/2700x/data` sepecified your db data
 ## Support Docker image
-Build container for docker,you only run `docker build -t mongodb:4.0.4 .` that can build your docker images,if has some bug ,please feedback for me
+Build container for docker,you only run `docke-build-mongo.sh` that can build your docker images,and use `docker-*-mongo.sh` operate your docker,if has some bug ,please feedback for me
