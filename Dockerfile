@@ -19,12 +19,11 @@ WORKDIR /home/mongodb
 COPY tmpl/* tmpl/
 COPY custom_params.conf custom_params.conf
 COPY startup.sh startup.sh
-COPY setRepl.sh setRepl.sh
 COPY shutdown.sh shutdown.sh
 
 EXPOSE 27000 27001 27002
 
-CMD /home/mongodb/startup.sh && /home/mongodb/setRepl.sh && tail -f /dev/null
+CMD /home/mongodb/startup.sh && tail -f /dev/null
 #CMD tail -f /dev/null
 
 
